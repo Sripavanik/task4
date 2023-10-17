@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <title>Document</title>
+    <style>
+        footer{
+            background-color:rgb(90, 12, 174);
+            height:100%;
+            width:100%;
+            padding:90px;
+            top:50px;
+         }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+          }
+          
+          /* Add a hover effect if you want */
+          .fa:hover {
+            opacity: 0.7;
+          }
+          
+          /* Set a specific color for each brand */
+          
+          /* Facebook */
+          .fa-facebook {
+            background: #3B5998;
+            color: white;
+          }
+          
+          /* Twitter */
+          .fa-twitter {
+            background: #55ACEE;
+            color: white;
+          }
+          .fa-instagram {
+            background: #ed0fe5;
+            color: white;
+          }
+          .fa-whatsapp{
+            background: #0fed30;
+            color: white;
+          }
+          .grid-container{
+            display:grid;
+            grid-template-columns: auto auto auto auto;
+          }
+        form{
+            padding:100px;
+            padding-left:300px;
+            align-items:center;
+            justify-content:center;
+        }
+        #but1{
+            height:50px;
+            width:300px;
+            color:white;
+            font-size:25px;
+            border-color:white;
+            
+        }
+        #but2{
+            background-color:rgb(165, 232, 98);
+        }
+        #a1{
+            color:white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-light" style="background-color:rgb(3, 46, 86)">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="color:white">Bridal in FANCY BUTTERFLIES</a>
+          </div>
+          <ul class="nav navbar-nav" style="color:black">
+            <li style="color:white"><a href="home.html">Home</a></li>
+            <li class="active"><a href="pricing.html" style="color:white">Pricing</a></li>
+            <li style="color:white"><a href="blogs.html" style="color:white">Blogs</a></li>
+            <li style="color:white"><a href="services.html" style="color:white">Services</a></li>
+        </ul>
+        
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="loginpage.html"style="color:white"><span class="glyphicon glyphicon-log-in"></span> Book Now</a></li>
+          </ul>
+          </div>
+          </nav>
+    <img src="MacBook Air - 2 (2).png" width="100%">
+    <form>
+        <button type="button" class="btn btn-primary" id="but1" onclick="got1()">Services for her</button>
+        <button type="button" class="btn btn-success" id="but1" onclick="got2()">Services for him</button>
+    </form>
+    <script>
+        
+        function got1(){
+            window.location="womenserve.html";
+        }
+        function got2(){
+            window.location="menserve.html";
+        }
+
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+<footer>
+    <div class="grid-container">
+      <div class="grid-item" style="color:White">
+        <p>Quick Links</p><br><br><br><br><br>
+        <p><a href="home.html" style="color:#ed0fe5">Home</a></p><br><br>
+        <p>About Us</p><br><br>
+        <p>Contact Us</p><br><br>
+        <p><a href="franchise.html" style="color:#ed0fe5">Franchise Opportunities</a></p><br><br>
+        <p><a href="blogs.html" style="color:#ed0fe5"></a></p><br><br>
+        <p>Privacy Policy</p><br><br>
+      </div>
+      <div class="grid-item" style="color:white">
+        <p>Our Services</p><br><br><br><br><br>
+        <p>Hair Care</p><br><br>
+        <p>Skin Care</p><br><br>
+        <p>Body Care</p><br><br>
+        <p>Bridal</p><br><br>
+        <p>Events</p><br><br>
+       
+      </div>
+      <div class="grid-item" style="color:white">
+        <p>Contact Us</p><br><br><br><br><br>
+        <p>Groom India Salon & Spa Pvt.Ltd</p><br><br>
+        <p>123 & 124 10th floor,jubilee center<p>hightech city,Hyderabad</p><br><br>
+      </div>
+      <div class="grid-item" style="color:white"><p>Get In touch</p><br><br><br><br><br>
+      <p>+91 xxxxxxxxxx</p><br><br>
+      <p>care@fancyybutterflies.com</p>
+      <p><a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram">
+      <a href="whatsapp.html" class="fa fa-whatsapp"></a>
+    </a></p>
+      </div>
+    </div>
+</footer>
+</html>

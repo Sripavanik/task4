@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <style>
+
+          form{
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+    }
+    #but{
+      
+  
+        height:70px;
+        width:200px;
+        color:white;
+        background-color:rgb(0, 0, 73)
+    }
+    #but1{
+      height:70px;
+      width:200px;
+      color:rgb(255, 255, 255);
+      background-color:rgb(0, 0, 73)
+  }
+          
+          ::-moz-selection { /* Code for Firefox */
+            color: red;
+            background: yellow;
+          }
+          
+          ::selection {
+            color: red;
+            background: yellow;
+          }
+          .navbar-nav li:hover{
+            background-color: #4c0a4a;
+          }
+          .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+          }
+          
+          /* Add a hover effect if you want */
+          .fa:hover {
+            opacity: 0.7;
+          }
+          
+          /* Set a specific color for each brand */
+          
+          /* Facebook */
+          .fa-facebook {
+            background: #3B5998;
+            color: white;
+          }
+          
+          /* Twitter */
+          .fa-twitter {
+            background: #55ACEE;
+            color: white;
+          }
+          .fa-instagram {
+            background: #ed0fe5;
+            color: white;
+          }
+          .fa-whatsapp{
+            background: #0fed30;
+            color: white;
+          }
+          .grid-container{
+            display:grid;
+            grid-template-columns: auto auto auto auto;
+          }
+          #im1{
+            padding: 50px;
+            left:auto;
+          }
+          #h1{
+            padding: 60px;
+            top:60%;
+          }
+        #o11{
+            padding:79px;
+            top:79px;
+        }
+        body{
+            background-color:rgb(245, 248, 248);
+        }
+        #bg1{
+            padding:90px;
+            top:90px;
+            width: 100%;
+            height: auto;
+        }
+        #iliana{
+          float:right;
+          padding:30px;
+          top:30px;
+          right:30px;
+          position:relative;
+        }
+        .center1 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+            }
+        @media screen and (max-width:600px){
+            #bg1{
+                height:50%;
+                width:50%;
+            }
+        }
+        #brush{
+            display:block;
+            margin-left:auto;
+
+        }
+        #o1{
+            background-color:rgb(255, 255, 255);
+        }
+        .wrapper{
+           
+            position:relative;
+            width:80vw;
+            transform:translate(-50%,-50%);
+            top:50%;
+            left:60%;
+            display:flex;
+        }
+        .container{
+            width:28vmin;
+            height:30vmin;
+            border:10px solid rgb(0, 0, 0);
+            background-color: #ed0fe5;
+            border-radius:45px;
+            display:flex;
+            flex-direction:column;
+        }
+        i{
+            color:black;
+            font-size:2.5em;
+            text-align:center;
+            justify-content:space-around;
+            padding:1em 0;
+            position:relative;
+            font-size:16px;
+            border-radius:0.5em;
+            background-color:rgb(24, 1, 49);
+            border-bottom:20px solid rgb(249, 248, 248);
+
+        }
+        #a1{
+          font-size:30px;
+          color:rgb(15, 15, 15);
+          text-align:center;
+          left:auto;
+          top:100px;
+        }
+        span.num{
+            color:white;
+            display:grid;
+            place-items:center;
+            font-weight:600;
+            font-size:3em;
+        }
+        span.text{
+            color:white;
+        }
+        @media screen and(max-width:1024px){
+
+            .wrapper{
+                padding:375px;
+                top:75px;
+                width:85vw;
+            }
+            .container{
+                height:26vmin;
+                width:26vmin;
+                font-size:12px;
+            }
+        }
+        .box{
+          padding:50px;
+          left:50px;
+        }
+    #f1{
+      background-color:rgb(235, 244, 246);
+      height:500px;
+      width:100%;
+    }
+    
+    #msg1{
+      color:rgb(248, 247, 248);
+      font-size:50px;
+      font-weight:20px;
+      padding:50px;
+      left:50px;
+      
+    }
+    #msg2{
+      color:rgb(248, 247, 248);
+      font-size:40px;
+      font-weight:20px;
+      padding:50px;
+      left:50px;
+    }
+    .box{
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      box-shadow: 0 10px 20px violet;
+    }
+       
+      
+       #o12{
+        font-size:30px;
+        color:rgb(32, 1, 80);
+        padding:200px;
+        left:100px;
+       }
+       #o13{
+        font-size:30px;
+        color:rgb(13, 13, 13);
+        padding:200px;
+        left:180px;
+       }
+       #o131{
+        font-size:30px;
+        color:rgb(255, 252, 252);
+        text-align:center;
+        
+       }
+      
+       .overlay{
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        bottom:0;
+        opacity:0;
+        transition:opacity 0.4s ease-in-out;
+        background-color:black;
+cursor:pointer;
+       }
+       .content{
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform:translate(-50%,-50%);
+        color:white;
+        font-family:verdana;
+        text-align:center;
+       }
+       .box:hover .overlay{
+        opacity:0.8;
+       }
+       footer{
+        background-color:rgb(90, 12, 174);
+        height:100%;
+        width:100%;
+        padding:90px;
+        top:50px;
+     }
+     #overbut1.hover{
+      background-color: aqua;
+     }
+     @media screen and (max-width:600px){
+      nav{
+        display:none;
+      }
+     }
+   
+     </style>
+    </head>
+    <body>
+     
+      <script>
+        
+        function myFunction() {
+          location.replace("registrationform.html")
+        }
+        </script>
+        <nav class="navbar navbar-inverse navbar-fixed-top navbar-light" style="background-color:rgb(32, 0, 61)">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="color:white">FANCY BUTTERFLIES</a>
+              </div>
+              <ul class="nav navbar-nav" style="color:black">
+                <li class="active" style="background-color:cadetblue"><a href="home.html">Home</a></li>
+                <li style="color:white"><a href="offers.html" style="color:white">Offers</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white">Our Services
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li id="overbut1"><a href="#" color="white">Hair Care</a></li>
+                <li id="overbut1"><a href="#" color="white">Skin Care</a></li>
+                <li id="overbut1"><a href="#" color="white">Body Care</a></li>
+              </ul>
+              </li>
+                
+                <li style="color:white"><a href="bridal.html" style="color:white">Bridal</a></li>
+                <li class="dropdown" style="color:white"><a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color:white">About us
+                <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#" color="white">Media</a></li>
+                <li><a href="#" color="white">School of makeup</a></li>
+              </ul>
+              </li>
+                <li style="color:white"><a href="franchise.html" style="color:white">Franchise Oppurtunities</a></li>
+                <li style="color:white"><a href="blogs.html" style="color:white">Blogs</a></li>
+                <li style="color:white"><a href="location.html" style="color:white">Salon Locator</a></li>
+                <li style="color:white"><a href="pricing.html" style="color:white">Pricing</a></li>
+                <li style="color:white"><a href="#" style="color:white">Academy</a></li>
+            </ul>
+            
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="registrationform.html"style="color:white"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                <li><a href style="color:white" onclick="go()"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+              </ul>
+              
+            </div>
+
+          </nav>
+          <div class="responsive">
+          <p id="bg1"><img src="turn1.jpg" class=" img-circle image-fluid ">
+            
+          </p>
+    </div>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" onclick="myFunction()">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
+        </ol>
+      
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="carousel1.jpg" alt="Los Angeles" class="image-fluid center1">
+          </div>
+      
+          <div class="item">
+            <img src="carousel2.jpg" alt="Chicago" class="center1">
+          </div>
+      
+          <div class="item">
+            <img src="carousel3.jpg" class="center1" alt="New York">
+          </div>
+       
+        <div class="item">
+          <img src="poster1.jpg" class="center1" alt="New York">
+        </div>
+      </div>
+      
+      
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
+        </div>
+        
+
+      </div>
+      <div style="color:rgb(27, 2, 54)" id="o1">
+        <h3 style="text-align:center" id="o11"><img src="comb-removebg-preview.png"><b>Fancy Butterflies in 2023</b></h3><br><br><br>
+        <p><img src="m2-removebg-preview.png"><img src="m3.jpg" class="img-circle" style="float:right"></p>
+        <h1 style="text-align:center" id="fancy"><p><b>Our Fancy Butterflies Journey</b></p></h1>
+      
+        <img src="makeupbrush-removebg-preview.png" id="brush">
+        <img src="m1-removebg-preview.png">
+        <div class="count">
+            <div class="wrapper">
+                <div class="container">
+                    <i class="fas fa-utensils"></i>
+                    <span class="num" data-val="500">000</span>
+               <span class="text">Stores</span>
+                </div>
+               
+                    <div class="container">
+                        <i class="fas fa-utensils"></i>
+                        <span class="num" data-val="90">000</span>
+                   <span class="text">States</span>
+                    </div>
+                    
+                        <div class="container">
+                            <i class="fas fa-beauty"></i>
+                            <span class="num" data-val="10000">000</span>
+                       <span class="text">Professionals</span>
+                        </div>
+            </div>
+            </div>
+
+    </div>
+    <script src="script.js"></script>
+    
+      
+      <div id="h1">
+        <p id="a1" style="color:#02143b">22 Years Of Pathbreaking Excellence</p><p id="a1" style="color:#02143b">In Beauty Services & Entrepreneurship Opportunities!</p>
+  
+    </div>
+    <p id="a1" >Naturally, you !</p>
+    <img src="makeup (1).jpg" class="img-responsive">
+    <br>
+    <br>
+    <br>
+    <h1 style="color:rgb(90, 1, 90)" id="a1">What Our Magicians Can Do For You</h1>
+    
+    <br>
+    <br>
+    <br>
+    <img src="img1 (1).jpg"id="im1" class="img-responsive">
+  <div id="f1">
+<img src="brown.jpg" id="iliana" class="img-responsive">
+<p id="msg1">SKIN CARE</p>
+<p id="msg2">Naturals Skin Care Services replenish,rejuvenate and revitalise your skin</p>
+ <form><p id="but1"><button id="but">Know More</button></p>
+ </form>
+</div>
+  
+  <div>
+    <p id="o12" style="color:black">
+      FRANCHISE
+    </p>
+    <h1>
+    <p id="o13" style="color:black">
+        Join The<br>
+        Naturals Family
+      </h1>
+      
+    </p>
+    <h2><p id="o12">Be A Part of India’s Largest Salon Chain An Exciting Entrepreneurship Opportunity For You</h2></p>
+  </div>
+  <form>
+  <p id="but1"><button id="but">Get In Touch</button>
+  </form>
+  </p>
+  <p style="color:rgb(0, 0, 0)" id="o131">
+    OUR POPULAR STYLIST
+  </p>
+
+  <h1 style="color:rgb(1, 30, 38)">
+    <p id="o11" style="text-align:center">Here Are Few Of Our
+      Popular Stylist</p>
+      <section id="Artists_section">
+        <div class=img-rounded data-aos="flip-down" data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"><p id="m6"><img src="Frame 1.png" onclick="myFunction()" class="img-responsive"></p></div>
+        <div class=img-rounded data-aos="zoom in" data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"><p id="m6"><img src="Frame 2.png" onclick="myFunction()" class="img-responsive"></p></div>
+        <div class=img-rounded data-aos="flip-up" data-aos-offset="100"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="false"
+        data-aos-anchor-placement="top-center"><p id="m6"><img src="Frame 3.png" onclick="myFunction()" class="img-responsive"></p></div>
+         
+          </section>
+  </h1>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  
+  </body>
+  <footer>
+      <div class="grid-container">
+        <div class="grid-item" style="color:White">
+          <p>Quick Links</p><br><br><br><br><br>
+          <p><a href="home.html" style="color:#ed0fe5">Home</a></p><br><br>
+          <p>About Us</p><br><br>
+          <p>Contact Us</p><br><br>
+          <p><a href="franchise.html" style="color:#ed0fe5">Franchise Opportunities</a></p><br><br>
+          <p><a href="blogs.html" style="color:#ed0fe5"></a></p><br><br>
+          <p>Privacy Policy</p><br><br>
+        </div>
+        <div class="grid-item" style="color:white">
+          <p>Our Services</p><br><br><br><br><br>
+          <p>Hair Care</p><br><br>
+          <p>Skin Care</p><br><br>
+          <p>Body Care</p><br><br>
+          <p>Bridal</p><br><br>
+          <p>Events</p><br><br>
+         
+        </div>
+        <div class="grid-item" style="color:white">
+          <p>Contact Us</p><br><br><br><br><br>
+          <p>Groom India Salon & Spa Pvt.Ltd</p><br><br>
+          <p>123 & 124 10th floor,jubilee center<p>hightech city,Hyderabad</p><br><br>
+        </div>
+        <div class="grid-item" style="color:white"><p>Get In touch</p><br><br><br><br><br>
+        <p>+91 xxxxxxxxxx</p><br><br>
+        <p>care@fancyybutterflies.com</p>
+        <p><a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram">
+        <a href="whatsapp.html" class="fa fa-whatsapp"></a>
+      </a></p>
+        </div>
+      </div>
+  </footer>
+</html>

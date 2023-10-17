@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+    
+<script>
+  function myFunction() {
+    location.replace("registrationform.html")
+  }
+  </script>
+    <style>
+      @media screen and (max-width:600px){
+        nav{
+          display:none;
+        }
+      }
+      body{
+        background-color:#3B5998;
+      }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 60px;
+            text-align: center;
+            text-decoration: none;
+          }
+          
+          /* Add a hover effect if you want */
+          .fa:hover {
+            opacity: 0.7;
+          }
+          
+          /* Set a specific color for each brand */
+          
+          /* Facebook */
+          .fa-facebook {
+            background: #3B5998;
+            color: white;
+          }
+          
+          /* Twitter */
+          .fa-twitter {
+            background: #55ACEE;
+            color: white;
+          }
+          .fa-instagram {
+            background: #ed0fe5;
+            color: white;
+          }
+          .fa-whatsapp{
+            background: #0fed30;
+            color: white;
+          }
+          .grid-container{
+            display:grid;
+            grid-template-columns: auto auto auto auto;
+          }
+          footer{
+            background-color:rgb(90, 12, 174);
+            height:90%;
+            width:100%;
+            position:relative;
+            padding:200px;
+            top:350px;
+           }
+        .navbar-nav li:hover{
+            background-color: #4c0a4a;
+          }
+          #myCarousel{
+            
+            padding:100px;
+            top:150px;
+          }
+          #div{
+      
+            padding:150px;
+            padding-top: 250px;
+            position:relative;
+            padding-left: 320px;
+          }
+          #let{
+            background-color:#4c0a4a;
+            color:white;
+            justify-content:center;
+            align-items: center;
+            height:50px;
+            width:500px;
+          }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top navbar-light" style="background-color:rgb(32, 0, 61)">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#" style="color:white">FANCY BUTTERFLIES</a>
+      </div>
+      <ul class="nav navbar-nav" style="color:black">
+        <li style="color:white"><a href="#">Home</a></li>
+        <li class="active"><a href="#" style="color:white">Offers</a></li>
+        <li style="color:white"><a href="services.html" style="color:white">Our Services</a></li>
+        <li style="color:white"><a href="bridal.html" style="color:white">Bridal</a></li>
+        <li style="color:white"><a href="#" style="color:white">About us</a></li>
+        <li style="color:white"><a href="blogs.html" style="color:white">Blogs</a></li>
+        <li style="color:white"><a href="#" style="color:white">Salon Locator</a></li>
+        <li style="color:white"><a href="#" style="color:white">Pricing</a></li>
+        <li style="color:white"><a href="#" style="color:white">Academy</a></li>
+    </ul>
+    
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="registrationform.html"style="color:white"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="loginpage.html"style="color:white"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+      
+    </div>
+
+  </nav>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel"  data-aos="fade-down" data-aos-anchor=".other-element">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="carousel1.jpg" alt="Los Angeles" class="image-fluid center1">
+      </div>
+  
+      <div class="item">
+        <img src="carousel2.jpg" alt="Chicago" class="center1">
+      </div>
+  
+      <div class="item">
+        <img src="carousel3.jpg" class="center1" alt="New York">
+      </div>
+   
+    <div class="item">
+      <img src="poster1.jpg" class="center1" alt="New York">
+    </div>
+  </div>
+  
+  
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+    
+
+  </div>
+ <div id="div">
+  <form >
+    <button type="button" id="let" onclick="myFunction()">LETS GET THE OFFER</button>
+  </form>
+ </div>
+</body>
+<footer>
+    <div class="grid-container">
+      <div class="grid-item" style="color:White">
+        <p>Quick Links</p><br><br><br><br><br>
+        <p>Home</p><br><br>
+        <p>About Us</p><br><br>
+        <p>Contact Us</p><br><br>
+        <p>Franchise Opportunities</p><br><br>
+        <p>Blogs</p><br><br>
+        <p>Privacy Policy</p><br><br>
+      </div>
+      <div class="grid-item" style="color:white">
+        <p>Our Services</p><br><br><br><br><br>
+        <p>Hair Care</p><br><br>
+        <p>Skin Care</p><br><br>
+        <p>Body Care</p><br><br>
+        <p>Bridal</p><br><br>
+        <p>Events</p><br><br>
+       
+      </div>
+      <div class="grid-item" style="color:white">
+        <p>Contact Us</p><br><br><br><br><br>
+        <p>Groom India Salon & Spa Pvt.Ltd</p><br><br>
+        <p>123 & 124 10th floor,jubilee center<p>hightech city,Hyderabad</p><br><br>
+      </div>
+      <div class="grid-item" style="color:white"><p>Get In touch</p><br><br><br><br><br>
+      <p>+91 xxxxxxxxxx</p><br><br>
+      <p>care@fancyybutterflies.com</p>
+      <p><a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+    <a href="#" class="fa fa-instagram">
+      <a href="whatsapp.html" class="fa fa-whatsapp"></a>
+    </a></p>
+      </div>
+    </div>
+</footer>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

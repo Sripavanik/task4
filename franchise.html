@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <style>
+        .container{
+            background-color:rgb(1, 57, 57)
+        }
+        #form{
+            width:300px;
+            margin:20vh auto 0 auto;
+            padding:20px;
+            background-color:whitesmoke;
+            border-radius:4px;
+            font-size:12px;
+        }
+        #form h1{
+            color:rgb(1, 1, 57);
+            text-align:center;
+        }
+        #form button{
+            padding:10px;
+            margin-top:10px;
+            width:100%;
+            color:white;
+            background-color:rgb(0, 255, 30);
+            border:none;
+            border-radius:4px;
+        }
+        .input-control{
+            display:flex;
+            flex-direction:column;
+        }
+        .input-control input{
+            border:2px solid #f0f0f0;
+            border-radius:4px solid;
+            display:block;
+            font-size:12px;
+            padding:10px;
+            width:90%;
+        }
+        #k2{
+            padding:10px;
+            top:30px;
+            color:rgb(255, 255, 255)
+        }
+        #k1{
+            padding:50px;
+            top:30px;
+            text-align:center;
+            color:white;
+        }
+        .i1{
+            padding:30px;
+            top:30px;
+        }
+        #p1{
+            height:400px;
+            width:2000px;
+            
+           background-color:rgb(1, 57, 57);
+        }
+        #myCarousel{
+                padding:30px;
+                padding-left:50px;
+                padding-right:50px;
+        }
+    </style>
+</head>
+<body>
+
+ 
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-light" style="background-color:rgb(1, 5, 58)">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#" style="color:white">Bridal in FANCY BUTTERFLIES</a>
+          </div>
+          <ul class="nav navbar-nav" style="color:black">
+            <li style="color:white"><a href="home.html">Home</a></li>
+            <li class="active"><a href="bridal.html" style="color:white">Makeup Experts</a></li>
+            <li style="color:white"><a href="blogs.html" style="color:white">Blogs</a></li>
+            <li style="color:white"><a href="services.html" style="color:white">Services</a></li>
+        </ul>
+        
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="loginpage.html"style="color:white"><span class="glyphicon glyphicon-log-in"></span> Book Now</a></li>
+          </ul>
+          </div>
+          </nav>
+    <div data-aos="flip-up" data-aos-anchor=".other-element"><a href="#enquire"><img src="Frame 4 (2).png" width="100%" class="i1"></a></div>
+    <p style="font-size:34px" id="j1">Over 400 Women Entrepreneurs Have Found Their Calling. Are You Next?</p>
+          <p style="font-size:24px">Become A Successful Entrepreneur</p> <p>With India’s Largest Family Salon Chain</p>
+<div id="p1" data-aos="flip-up" data-aos-anchor=".other-element">
+    <h1 style="font-size:34px;" id="k2"><u>Hear From Our Franchise Owners</u></h1>
+    <div style="font-size:24px" id="k1"><p>The success of any franchise is determined </p><p>by the success of its franchise partners.</p><p>Naturals is fortunate to have many such success stories to tell.</p><p> Hear from our partners how Naturals have empowered them and have opened new growth vistas.</p></div>
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" >
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+    </ol>
+  
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="Group 3 (3).png"  alt="Los Angeles" class="image-fluid center1">
+      </div>
+  
+      <div class="item">
+        <img src="Group 4 (2).png"  alt="Chicago" class="center1">
+      </div>
+  
+      <div class="item">
+        <img src="Group 5 (1).png" class="center1"  alt="New York">
+      </div>
+   
+    <div class="item">
+      <img src="Group 6 (1).png" class="center1"  alt="New York">
+    </div>
+  </div>
+  
+  
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div></a>
+    <div class="container">
+ <section id="enquire">
+        <form id="form" action="/">
+            <legend><h1>Enquire Now</h1></legend>
+            <div class="input-control" >
+                
+                <input type="text" id="username" name="username" placeholder="your name" onblur="valname(this.id)">
+                <label id="lbname" style="color:red;visibility: hidden;">Invalid</label>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                
+                <input type="text" id="email" name="email"  placeholder="Mobile Number" onblur="valmail(this.id)">
+                <label id="lbmob" style="color:red;visibility: hidden;">Invalid</label>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                
+                <input type="password" id="password" name="password"  placeholder="Location" onblur="valpass(this.id)">
+                <label id="lbpass" style="color:red;visibility: hidden;">Invalid</label>
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                
+                <input type="password" id="password2" name="password2"  placeholder="Email-id" onblur="valpass2(this.id)">
+                <label id="lbpass2" style="color:red;visibility: hidden;">Invalid</label>
+                <div class="error"></div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+        </section>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+    
+        </body>
+</html>
